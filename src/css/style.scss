@@ -1,0 +1,237 @@
+$primary: #3dcfd3;
+$dark: #161616;
+$white: #fff;
+$turnary: #898989;
+$light: #f2f2f2;
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+span{
+    color: $primary;
+}
+
+.social{
+    a{
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    a:hover{
+        color: $primary;
+        transition: .3s ease;
+    }
+}
+
+ header{
+     background: $dark;
+     clip-path: polygon(0 0, 100% 0, 100% 93%, 69% 81%, 0 96%);
+
+     .nav-item{
+
+         a:hover{
+        color: $primary;
+        transition: .3s ease;
+     }
+    }
+
+    .btn{
+        background: $primary;
+        color: $dark;
+    }
+
+    .btn:hover{
+        background: transparent;
+        color: $primary;
+        border: 2px solid $primary;
+        transition: .3s ease;
+        
+    }
+
+    .hero{
+        h{
+            color: $primary
+        }
+        span{
+            color: $primary;
+        }
+        .btn{
+            background: transparent;
+        color: $primary;
+        border: 2px solid $primary;
+        }
+        .btn:hover{
+            background: $primary;
+            color: $dark;
+            transition: .3s ease;
+        }
+    }
+
+ }
+
+ section{
+     .about{
+         h2{
+             color: $dark;
+         }
+         span{
+             color: $primary;
+         }
+
+         p{
+             color: $turnary;
+         }
+
+         .about-img{
+             max-height: 450px;
+         }
+
+     }
+ }
+
+ section.skill{
+     span{
+         color: $primary;
+     }
+     .cards{
+         .card-wrapper{
+             position: relative;
+         }
+
+         .card-wrapper:hover{
+             background: $dark;
+             color: $light;
+             transition: .7s ease;
+         }
+         i{
+             position: absolute;
+             top: -3rem;
+             left: 50%;
+             transform: translateX(-50%);
+             background: $primary;
+         }
+     }
+ }
+
+ .freelancer{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/camera.png);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 76%, 0 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .btn{
+        background: $primary;
+        color: $dark;
+    }
+    .btn:hover{
+        background: transparent;
+        color: $primary;
+        border: 2px solid $primary;
+        transition: .3s ease;
+    }
+
+ }
+
+ section.review{
+     .slider{
+         .slide{
+             text-align: center;
+             display: flex;
+             align-items: center;
+             flex-direction: column;
+         }
+     }
+
+     .sliderDot{
+        margin-top: 3rem;
+
+         .dots{
+             display: flex !important;
+             justify-content: center;
+
+             [aria-selected="true"]{
+                 background: $primary;
+                 width: 20px;
+             }
+         }
+         button{
+             font-size: 0;
+             width: 8px;
+             height: 5px;
+             margin-right: .3rem;
+             background: $turnary;
+             border-radius: 50px;
+             cursor: pointer;
+         }
+     }
+ }
+ .work{
+     .cards{
+         .card-wrapper{
+             position: relative;
+             height: 250px;
+
+             .overly{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.7);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                color: $primary;
+                opacity: 0;
+
+                    span{
+                        color: $light;
+                    }    
+             }
+         }
+
+        .card-wrapper:hover .overly{
+            opacity: 1;
+            transition: .6s ease;
+        }
+     }
+
+ }
+
+ .blog{
+     background: $dark;
+     clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
+
+     img{
+         height: 250px;
+     }
+ }
+
+ section.contact{
+     form{
+         .button{
+            .btn{
+                background: $primary;
+                color: $dark;
+            }
+        
+            .btn:hover{
+                background: $dark;
+                color: $primary;
+                transition: .3s ease;
+                
+            }
+         }
+     }
+ }
+ footer{
+    background: $dark;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+

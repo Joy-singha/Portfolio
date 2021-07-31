@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  color: #3dcfd3;
+}
+
+.social a {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+}
+
+.social a:hover {
+  color: #3dcfd3;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+header {
+  background: #161616;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 93%, 69% 81%, 0 96%);
+          clip-path: polygon(0 0, 100% 0, 100% 93%, 69% 81%, 0 96%);
+}
+
+header .nav-item a:hover {
+  color: #3dcfd3;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+header .btn {
+  background: #3dcfd3;
+  color: #161616;
+}
+
+header .btn:hover {
+  background: transparent;
+  color: #3dcfd3;
+  border: 2px solid #3dcfd3;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+header .hero h {
+  color: #3dcfd3;
+}
+
+header .hero span {
+  color: #3dcfd3;
+}
+
+header .hero .btn {
+  background: transparent;
+  color: #3dcfd3;
+  border: 2px solid #3dcfd3;
+}
+
+header .hero .btn:hover {
+  background: #3dcfd3;
+  color: #161616;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+section .about h2 {
+  color: #161616;
+}
+
+section .about span {
+  color: #3dcfd3;
+}
+
+section .about p {
+  color: #898989;
+}
+
+section .about .about-img {
+  max-height: 450px;
+}
+
+section.skill span {
+  color: #3dcfd3;
+}
+
+section.skill .cards .card-wrapper {
+  position: relative;
+}
+
+section.skill .cards .card-wrapper:hover {
+  background: #161616;
+  color: #f2f2f2;
+  -webkit-transition: .7s ease;
+  transition: .7s ease;
+}
+
+section.skill .cards i {
+  position: absolute;
+  top: -3rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: #3dcfd3;
+}
+
+.freelancer {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/camera.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/camera.png);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 76%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 76%, 0 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.freelancer .btn {
+  background: #3dcfd3;
+  color: #161616;
+}
+
+.freelancer .btn:hover {
+  background: transparent;
+  color: #3dcfd3;
+  border: 2px solid #3dcfd3;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+section.review .slider .slide {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.review .sliderDot {
+  margin-top: 3rem;
+}
+
+section.review .sliderDot .dots {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.review .sliderDot .dots [aria-selected="true"] {
+  background: #3dcfd3;
+  width: 20px;
+}
+
+section.review .sliderDot button {
+  font-size: 0;
+  width: 8px;
+  height: 5px;
+  margin-right: .3rem;
+  background: #898989;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.work .cards .card-wrapper {
+  position: relative;
+  height: 250px;
+}
+
+.work .cards .card-wrapper .overly {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #3dcfd3;
+  opacity: 0;
+}
+
+.work .cards .card-wrapper .overly span {
+  color: #f2f2f2;
+}
+
+.work .cards .card-wrapper:hover .overly {
+  opacity: 1;
+  -webkit-transition: .6s ease;
+  transition: .6s ease;
+}
+
+.blog {
+  background: #161616;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
+}
+
+.blog img {
+  height: 250px;
+}
+
+section.contact form .button .btn {
+  background: #3dcfd3;
+  color: #161616;
+}
+
+section.contact form .button .btn:hover {
+  background: #161616;
+  color: #3dcfd3;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+footer {
+  background: #161616;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=style.css.map */
